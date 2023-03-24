@@ -15,7 +15,6 @@ export default function Todo({
       [
         {
           text: "Cancel",
-          onPress: () => console.log("Cancel Pressed"),
           style: "cancel",
         },
         { text: "Delete", onPress: handleDeleteTodo },
